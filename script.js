@@ -41,8 +41,8 @@ const keyz = {
 
 
 //controls
-main_canvas.setAttribute('width', game.grid * 12);
-main_canvas.setAttribute('height', game.grid * 10);
+main_canvas.setAttribute('width', game.grid * 11);
+main_canvas.setAttribute('height', game.grid * 8.5);
 main_canvas.addEventListener('click', (e) => {
     if (game.gameover) {
         game.gameover = false;
